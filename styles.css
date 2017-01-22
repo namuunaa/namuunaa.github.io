@@ -1,3 +1,40 @@
 body {
+	font-family: Tahoma;
 	background: lavender;
+}
+
+
+h1 {
+	padding: 5px;
+	border: 1px solid;
+	font-size: 2em;
+	font-family: Helvetica;
+}
+
+footer {
+	font-style: italic;
+	text-align: center;
+}
+
+a:visited {
+	color: red;
+}
+
+table {
+	margin: 10px;
+}
+
+#top ul {
+	list-style-type: none;
+
+}
+
+#top li {
+	display: inline-block;
+	margin: 5px;
+}
+
+body.contact {
+	background-image: url(images/goldentemple.jpg);
+	background-size: cover;
 }
