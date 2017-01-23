@@ -1,6 +1,7 @@
 body {
 	font-family: Tahoma;
 	background: lavender;
+	max-width: 1028px;
 }
 
 
@@ -37,4 +38,14 @@ table {
 body.contact {
 	background-image: url(images/goldentemple.jpg);
 	background-size: cover;
+}
+
+@media (max-width: 450px) {
+	h1 {font-size: 1em;}
+}
+	
+
+img {
+	max-width: 500px;
+	display: inline-block;
 }
