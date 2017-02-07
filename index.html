@@ -1,56 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Travel to Japan</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-	<div id="top">
-	<h1>Japan in 7 days: how to make the most out of your trip.</h1>
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-	<p>Here I will share some tips and things to keep in mind when traveling to Japan.</p>
-	<img src="images/tokyo_tower.jpg" alt="tokyo tower" />
-	<img src="images/bamboo_forest.jpg" alt="bamboo forest" />
-	<p>All pictures taken by yours truly.</p>
-	</div>
+  <head>
+    <meta charset="utf-8"> 
+    <title>Namuun Bayaraa</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Exo:200,400,800|Titillium+Web:400,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	<div id="bottom">
-		<p>So this is your first time going to Japan and you have only a week. There are so many cities and regions to explore but start with these two must go cities first:</p>
-		<ul>
-			<li>Tokyo</li>
-			<li>Kyoto</li>
-		</ul>
+    ga('create', 'UA-52503071-2', 'auto');
+    ga('send', 'pageview');
 
-		<p>I made a simple table of some of must to do in both cities.</p>
-		<table border="1">
-			<tr>
-				<th>Activity</th>
-				<th>Tokyo</th>
-				<th>Kyoto</th>
-			</tr>
-			<tr>
-				<td>Temples to see</td>
-				<td>Senso-ji Temple</td>
-				<td>Kinkaku-ji Temple</td>
-			</tr>
-			<tr>
-				<td>Things to do</td>
-				<td>Shopping in Harajuku</td>
-				<td>Strolling around in Gion</td>
-			</tr>
-			<tr>
-				<td>Food</td>
-				<td colspan="2">Ramen and Sushi all day, everyday</td>
-			</tr>
-		</table>
-
-		<p><a href="http://www.nomadicmatt.com/travel-guides/japan-travel-tips/">Here</a> I found another amazing guide on Japan. What makes this page good is that it breaks down small topics and puts a navigation to each parts on top of the page. On the source code I saw different attributes for nav, nad header and other elements. A table or two would have been nice to have.</p>
-	</div>
-	<footer>2017 Namuun Bayaraa</footer>
-</body>
+  </script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id=logo>
+        <h1>Namuun Bayaraa</h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+		  <li><a href="http://darlinginadress.com/">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+    <section>
+        <ul id="gallery">
+          <li>
+            <a href="img/london.jpg">
+              <img src="img/london.jpg" alt="">
+              <p>London Eye, London</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/barcelona.jpg">
+              <img src="img/barcelona.jpg" alt="">
+              <p>Parc Guell, Barcelona</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/eiffel-tower.jpg">
+              <img src="img/eiffel-tower.jpg" alt="">
+              <p>Eiffel Tower, Paris.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/opera.jpg">
+              <img src="img/opera.jpg" alt="">
+              <p>Teatro Real, Madrid.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/baybridge.jpg">
+              <img src="img/baybridge.jpg" alt="">
+              <p>Bay Bridge, San Francisco.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/colosseo.jpg">
+              <img src="img/colosseo.jpg" alt="">
+              <p>Colosseum, Rome.</p>
+            </a>
+          </li>
+          
+        </ul>
+    </section>
+      <footer>
+        <a href="http://twitter.com/namukaa"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://instagram.com/namukaa"><img src="img/instagram.jpg" alt="Instagram Logo" class="social-icon"></a>
+        <a href="http://linkedin.com/in/namuunbayaraa"><img src="img/linkedin.png" alt="LinkedIn Logo" class="social-icon"></a>
+        <a href="https://pinterest.com/namuun"><img src="img/pinterest.png" alt="Pinterest Logo" class="social-icon"></a>
+        <a href="https://flickr.com/photos/namuka/"><img src="img/flickr.png" alt="Flickr Logo" class="social-icon"></a>
+        <p>&copy; 2016 Namuun Bayaraa.</p>
+      </footer>
+    </div>
+  </body>
 </html>
