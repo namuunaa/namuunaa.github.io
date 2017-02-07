@@ -1,2 +1,2 @@
 # namuunaa.github.io
-# all rigths reserved
+# all rights reserved
