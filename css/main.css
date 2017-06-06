@@ -4,16 +4,12 @@ GENERAL
 
 body {
   font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  text-align: center;
 }
 
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-} 
-
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 img {
@@ -24,8 +20,11 @@ h3 {
   margin: 0 0 1em 0;  
 }
 
-
-
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+} 
 /********************
 HEADING
 ********************/
@@ -48,14 +47,13 @@ h1 {
   font-size: 1.75em;
   font-weight: bold;
   line-height: 0.8em;
+  padding-bottom: 20px;
 }
 
 h2 {
-  font-size: 0.75em;
   margin: -5px 0 0;
   font-weight: normal;
 }
-
 
 /********************
 NAVIGATION
@@ -82,17 +80,25 @@ nav a {
   padding: 15px 10px;
 }
 
-
 /********************
 FOOTER
 ********************/
 
 footer {
   font-size: 0.75em;
-  text-align: center;
   clear: both;
-  padding-top: 50px;
-  color: #ccc;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.float-right {
+  float: right;
 }
 
 .social-icon {
@@ -100,8 +106,6 @@ footer {
   height: 20px;
   margin: 0 5px;
 }
-
-
 
 /********************
 PAGE: PORTFOLIO
@@ -117,7 +121,6 @@ PAGE: PORTFOLIO
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #f5f5f5;
   color: #bdc3c7;
 }
 
@@ -128,48 +131,25 @@ PAGE: PORTFOLIO
   color: #bdc3c7;
 }
 
-
-
 /********************
 PAGE:ABOUT
 ********************/
 
 .profile-photo {
   display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
   border-radius: 100%;
+  width: 25%;
+  padding-right: 37.5%;
+  padding-left: 37.5%;
 }
 
-
-
-/********************
-PAGE: CONTACT
-********************/
-
-.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-}
-
-.contact-info a {
+.text-block {
   display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
+  float: none;
+  margin-top: 10px;
+  align-items: center;
+  overflow: visible;
 }
-
-
-.contact-info li.mail a {
-  background-image: url('../img/mail.png');
-}
-
-
-
 
 /********************
 COLORS
@@ -178,20 +158,7 @@ COLORS
 /* site body */
 
 body {
-  background-color: #fff;
-  color: #999;
-}
-
-header {
-  background: #fff;
-  border-color: #000;
-} 
-
-nav {
-  background: #fff;
-}
-
-h1, h2 {
+  background-color: #ECEFF1;
   color: #000;
 }
 
@@ -199,11 +166,108 @@ a {
   color: #000;
 }
 
-nav a, nav a:visited {
-  color: #999;
-}
-
 nav a.selected, nav a:hover {
   color: #ccc;
 }
+
+/********************
+OTHER
+********************/
+
+.home-section {
+  height: 600px;
+  margin: auto;
+  width: 50%;
+  padding-top: 200px;
+}
+
+/*.about-section {
+  display: inline-block;
+  height: 600px;
+  padding-top: 20px;
+  margin: auto;
+}*/
+
+.contact-section {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.social-button {
+  margin-right: 4px;
+  margin-bottom: 8px;
+  margin-left: 4px;
+  padding: 6px;
+}
+
+.social-button:hover {
+  opacity: 0.5;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  clear: none;
+  padding: 10px 10px;
+  margin-top: 20px;
+  margin-right: 45%;
+  margin-left: 45%;
+  border: 1px none #73ceda;
+  border-radius: 5px;
+  direction: ltr;
+  background-color: #333;
+  color: #fff;
+  align-content: center;
+}
+
+.button:hover {
+  background-color: #455a64;
+  opacity: 1;
+  color: #fff;
+}
+
+.home-heading {
+  padding-bottom: 0px;
+  font-size: 50px;
+}
+
+.home-subheading {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.heading {
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+.section-heading {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.section {
+  height: 300px;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.all-social {
+  padding-bottom: 150px;
+}
+
+
+
+
 

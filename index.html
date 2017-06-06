@@ -2,9 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8"> 
-    <title>Namuun Bayaraa</title>
+    <title> Namuun Bayaraa | Software Engineer </title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Exo:200,400,800|Titillium+Web:400,400italic' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script>
@@ -20,36 +22,127 @@
   </head>
   <body>
     <header>
-      <a href="index.html" id=logo>
-        <h1>Namuun Bayaraa</h1>
-      </a>
+      <a href="index.html" id=logo><h1 class="brand-text">Namuun</h1></a>
       <nav>
         <ul>
-          <li><a href="index.html"class="selected">About</a></li>
-          <li><a href="files/namuun_bayaraa_2017.pdf">Resume</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <div id="wrapper">
-      <section>
-      <img src="img/me.jpg" alt="Namuun" class="profile-photo">
-      <h3>About</h3>
-      <p>Hello!
-      My name is Namuun Bayaraa, but I go by Namuunaa.</p>
+    <div class="home-section" id="#home">
+      <h1 class="home-heading">Namuun Bayaraa</h1>
+      <div class="home-subheading">Full-Stack Software Engineer</div>
+      <div class="all-social">
+        <a class="social-button" href="http://twitter.com/namukaa" target="_blank"> <img src="img/logo_twitter.png" alt="Twitter Logo" width="35px"></a>
+        <a class="social-button" href="http://instagram.com/namukaa" target="_blank"><img src="img/logo_instagram.png" alt="Instagram Logo" width="35px"></a>
+        <a class="social-button" href="http://linkedin.com/in/namuunbayaraa" target="_blank"><img src="img/logo_linkedin.png" alt="LinkedIn Logo" width="35px"></a>
+        <a class="social-button" href="https://github.com/namuunaa" target="_blank"><img src="img/logo_github.png" alt="GitHub Mark" width="35px"></a>
+      </div>
+      <a href="#about">
+      <i class="arrow down"></i></a>
+    </div>
+      
+    <div class="about-section" id="about">
+      <h1 class="heading">About</h1>
+      <img class="profile-photo" sizes="150px" src="img/me.jpg" alt="Namuun">
+      <div class="text-block">Hello! My name is Namuun Bayaraa, but I go by Namuunaa.<br>
+      I am a nutritionist turned software developer with an aim to create meaningful contributions in the tech space. I specialize in Ruby on Rails / Javascript currently. I'm passionate about learning new skills and ready for new challenges.<br>
+      Always curious, always exploring I like to keep up with latest technology, fashion and food trends. Originally from Mongolia, I'm based in San Francisco Bay Area.
+      </div>
+      <a class="button" href="files/namuun_bayaraa_2017.pdf">Resume</a>
+    </div>
 
-      <p>I am a nutritionist turned software developer with an aim to create meaningful contributions in the tech space. I specialize in Ruby on Rails / Javascript currently. I'm passionate about learning new skills and ready for new challenges.
+    <div class="projects-section" id=projects>
+      <h1 class="heading">Projects</h1>
 
-      Always curious, always exploring I like to keep up with latest technology, fashion and food trends. Originally from Mongolia, I'm based in San Francisco Bay Area. </p>
-      <p>Shoot me an email to <a href="mailto:namuka@gmail.com">namuka@gmail.com</a> to say hi! Follow me on twitter, and make sure you check out my blog, instagram for the latest.</p>
-      </section>
-      <footer>
+      <div class="section">
+        <div id="primary"><img sizes="(max-width: 480px) 67vw, 290px" src="img/tonite.jpg" width="290"></div>
+        <div id="secondary">
+          <h2 class="section-heading">Tonite</h2>
+          <div class="section-subheading"><strong>Tonite</strong> is an event recommendation Alexa Skill that allows users to find an event going on today for a spontaneous outing. Tech Stack: Ruby on Rails, Heroku, Travis CI, Eventful API, Codecov, Echo Dot, Alexa Skills Kit</div>
+          <div><a href="https://github.com/namuunaa/tonite" target="_blank">Code</a></div>
+        </div>
+      </div>
+      <div class="section">
+        <div id="secondary"><img sizes="(max-width: 480px) 67vw, 290px" src="img/book.jpg" width="290"></div>
+        <div id="primary">
+          <h2 class="section-heading">Book my Book</h2>
+          <div class="section-subheading">Discover your next book obsession! <strong>Book my Book</strong> is a place to rent a book from others. It's a traveling library. Instead of buying a new book, rent from others and save trees. Tech Stack: Ruby on Rails, HTML/CSS, JavaScript, Goodreads API, Heroku</div>
+          <div><a href="https://github.com/namuunaa/book-my-book" target="_blank">Code</a> | <a href="https://book-my-book.herokuapp.com/" target="_blank">Live</a></div>
+        </div>
+      </div>
+      <div class="section">
+        <div id="primary"><img sizes="(max-width: 480px) 67vw, 290px" src="img/wanderlust.png" width="290"></div>
+        <div id="secondary">
+          <h2 class="section-heading">Wanderlusting</h2>
+          <div class="section-subheading">Caught a travel bug and planning your next adventure? Let us know your next location and we'll match you with friends who share same interests and travel paths. <br> Tech Stack: Ruby on Rails, HTML5/CSS3, jQuery, MapBox</div>
+          <div><a href="https://github.com/namuunaa/wanderlusting" target="_blank">Code</a> | ongoing </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="gallery-section" id="gallery">
+      <h1 class="heading">Gallery</h1>
+        <p>Besides coding, I enjoy traveling and exploring new places. I like to keep those memories in pictures.</p>
+        <ul id="gallery">
+          <li>
+            <a href="img/london.jpg">
+              <img src="img/london.jpg" alt="">
+              <p>London Eye, London</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/barcelona.jpg">
+              <img src="img/barcelona.jpg" alt="">
+              <p>Parc Guell, Barcelona</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/eiffel-tower.jpg">
+              <img src="img/eiffel-tower.jpg" alt="">
+              <p>Eiffel Tower, Paris.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/opera.jpg">
+              <img src="img/opera.jpg" alt="">
+              <p>Teatro Real, Madrid.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/baybridge.jpg">
+              <img src="img/baybridge.jpg" alt="">
+              <p>Bay Bridge, San Francisco.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/colosseo.jpg">
+              <img src="img/colosseo.jpg" alt="">
+              <p>Colosseum, Rome.</p>
+            </a>
+          </li>
+        </ul>
+    </div>
+
+    <div class="contact-section" id="contact">
+      <h1 class="heading">Contact</h1>
+        <div class="centered section-subheading">Interested in hiring me or would like to collaborate? I'd love to hear from you, let's get coffee?</div>
+        <a class="button" href="mailto:namuka@gmail.com">Email me</a>
+    </div>
+
+    <footer>
+        <div class="float-right">
         <a href="http://twitter.com/namukaa"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon"></a>
         <a href="http://instagram.com/namukaa"><img src="img/instagram.jpg" alt="Instagram Logo" class="social-icon"></a>
         <a href="http://linkedin.com/in/namuunbayaraa"><img src="img/linkedin.png" alt="LinkedIn Logo" class="social-icon"></a>
         <a href="https://github.com/namuunaa"><img src="img/GitHub-Mark-32px.png" alt="GitHub Mark" class="social-icon"></a>
-        <p>&copy; 2017 Namuun Bayaraa.</p>
+        </div>
+        <div class="footer-text">&copy; 2017 Namuun Bayaraa.</div>
       </footer>
     </div>
   </body>
