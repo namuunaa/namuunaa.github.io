@@ -189,15 +189,18 @@ OTHER
 }*/
 
 .contact-section {
-  padding-top: 100px;
   padding-bottom: 150px;
+}
+
+.gallery-section {
+  height: 950px;
 }
 
 .social-button {
   margin-right: 4px;
   margin-bottom: 8px;
   margin-left: 4px;
-  padding: 6px;
+  padding: 2px;
 }
 
 .social-button:hover {
@@ -248,7 +251,7 @@ OTHER
 }
 
 .section {
-  height: 300px;
+  height: 400px;
 }
 
 i {
