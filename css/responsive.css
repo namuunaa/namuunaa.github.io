@@ -25,6 +25,11 @@
 
   .social-button {
     padding: 6px;
+    width: 35px;
+  }
+
+  i {
+    padding: 10px;
   }
 
 }
