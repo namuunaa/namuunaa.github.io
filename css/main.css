@@ -21,7 +21,7 @@ h3 {
 }
 
 #wrapper {
-  max-width: 940px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 5%;
 } 
@@ -176,8 +176,8 @@ OTHER
 .home-section {
   height: 600px;
   margin: auto;
-  width: 50%;
-  padding-top: 200px;
+  width: 90%;
+  padding-top: 300px;
 }
 
 /*.about-section {
@@ -212,16 +212,16 @@ OTHER
   display: inline-block;
   text-align: center;
   clear: none;
-  padding: 10px 10px;
+  padding: 10px 15px;
   margin-top: 20px;
-  margin-right: 45%;
-  margin-left: 45%;
-  border: 1px none #73ceda;
+  margin-right: 35%;
+  margin-left: 35%;
+  border: 1px solid #333;
   border-radius: 5px;
   direction: ltr;
-  background-color: #333;
-  color: #fff;
+  color: #333;
   align-content: center;
+  width: 70px;
 }
 
 .button:hover {
@@ -232,7 +232,7 @@ OTHER
 
 .home-heading {
   padding-bottom: 0px;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .home-subheading {
@@ -250,6 +250,7 @@ OTHER
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 10px;
 }
 
 .section {
@@ -275,6 +276,14 @@ i {
 .brand-text {
   font-weight: normal;
   font-size: 30px;
+}
+
+.code-link {
+  text-decoration: underline;
+}
+
+.code-link:hover {
+  opacity: 0.7;
 }
 
 

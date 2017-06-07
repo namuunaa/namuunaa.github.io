@@ -32,6 +32,10 @@
     padding: 10px;
   }
 
+  .home-heading {
+    font-size: 50px;
+  }
+
 }
 
 @media screen and (min-width: 660px) {
@@ -69,7 +73,10 @@
     height: 300px;
   }
   
-  
+  .home-section {
+    padding-top: 250px;
+  }
+
    /********************
   PAGE: PORTFOLIO
   ********************/
@@ -83,6 +90,14 @@
     }
 
 }
+
+@media screen and (max-width: 480px) {
+  .brand-text {
+    display: none;
+  }
+}
+
+
   
 
 
